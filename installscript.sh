@@ -7,7 +7,7 @@ sudo apt remove -y nodejs &&
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - &&
 sudo apt-get install -y nodejs &&
 echo "# Installing Java JDK8 Headless..." &&
-sudo apt -y install openjdk-8-jdk-headless build-essential libssl-dev zip &&
+sudo apt -y install openjdk-8-jdk-headless build-essential libssl-dev zip zipalign &&
 echo ... &&
 echo "# Installing Android SDK tools..." &&
 wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip &&
